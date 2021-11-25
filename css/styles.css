@@ -227,6 +227,7 @@ body {
 .icon-mail,
 .icon-phone {
   margin-right: 10px;
+  transition: fill 250ms var(--timing-function);
 }
 
 /* Hero */
@@ -443,12 +444,14 @@ body {
   height: 44px;
   border: none;
   border-radius: 50%;
+  transition: background-color 250ms var(--timing-function);
 
   /* Section */
 }
 
 .icon-socials {
   fill: #afb1b8;
+  transition: fill 250ms var(--timing-function);
 }
 
 .socials-link:hover,
@@ -484,6 +487,7 @@ body {
 
 .icon-client {
   fill: #afb1b8;
+  transition: fill 250ms var(--timing-function);
 }
 
 .client-link:hover,
